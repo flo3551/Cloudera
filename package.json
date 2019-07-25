@@ -1,0 +1,31 @@
+{
+  "name": "sources",
+  "version": "1.0.0",
+  "description": "cloudera",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-task:scss-compile": "node-sass --source-map true styles/ -o styles/",
+    "build-task:autoprefixer": "postcss styles/*.css --use autoprefixer -d styles",
+    "sass:build": "npm-run-all -p build-task:*",
+    "sass:watch": "chokidar \"src/scss/**/*.scss\" -c \"npm run sass:build\"",
+    "dev": "npm-run-all -p sass:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flo3551/Cloudera.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flo3551/Cloudera/issues"
+  },
+  "homepage": "https://github.com/flo3551/Cloudera#readme",
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "chokidar-cli": "^1.2.2",
+    "node-sass": "^4.12.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^6.1.3"
+  }
+}
