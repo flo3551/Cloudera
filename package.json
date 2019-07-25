@@ -8,7 +8,7 @@
     "build-task:scss-compile": "node-sass --source-map true styles/ -o styles/",
     "build-task:autoprefixer": "postcss styles/*.css --use autoprefixer -d styles",
     "sass:build": "npm-run-all -p build-task:*",
-    "sass:watch": "chokidar \"src/scss/**/*.scss\" -c \"npm run sass:build\"",
+    "sass:watch": "chokidar \"styles/*.scss\" -c \"npm run sass:build\"",
     "dev": "npm-run-all -p sass:*"
   },
   "repository": {
