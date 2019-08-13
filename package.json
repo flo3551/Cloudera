@@ -23,7 +23,9 @@
   "homepage": "https://github.com/flo3551/Cloudera#readme",
   "dependencies": {
     "autoprefixer": "^9.6.1",
+    "bootstrap": "^4.3.1",
     "chokidar-cli": "^1.2.2",
+    "hover.css": "^2.3.2",
     "node-sass": "^4.12.0",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^6.1.3"

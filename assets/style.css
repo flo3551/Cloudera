@@ -15,6 +15,22 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.cloudera-team-spirit {
+  width: 1.3232421875em;
+}
+
+.cloudera-pair_programming {
+  width: 1.53125em;
+}
+
+.cloudera-tabs {
+  width: 1.28515625em;
+}
+
+.cloudera-wall_post {
+  width: 1.37109375em;
+}
+
 .cloudera-to_the_moon {
   width: 1.236328125em;
 }
