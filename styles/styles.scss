@@ -139,13 +139,33 @@ body {
         }
     }
 
-    .container.second-section {
-        height: 95vh;
+    .container {
         color: #000;
-        padding-top: 50px;
-        .icon {
-            font-size: 35vh;
-            margin: 40px auto 30px auto;
+
+        .second-section {
+            // min-height: 95vh;
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+            .icon {
+                font-size: 35vh;
+                margin: 40px auto 30px auto;
+            }
+        }
+
+        .third-section {
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+            .intro-section {
+                padding: 0 50px 50px 50px;
+            }
+
+            .services-section {
+                .icon {
+                    font-size: 15vh;
+                }
+            }
         }
     }
 
