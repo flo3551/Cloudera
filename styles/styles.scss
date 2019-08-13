@@ -21,7 +21,7 @@ body {
     font-weight: normal;
     font-size: 42px;
 
-    .container-fluid.first-section {
+    .first-section {
         color: rgb(243, 243, 243);
         height: 100vh;
         padding-top: 57px; //navbar's fixed top
@@ -141,6 +141,12 @@ body {
 
     .container.second-section {
         height: 95vh;
+        color: #000;
+        padding-top: 50px;
+        .icon {
+            font-size: 35vh;
+            margin: 40px auto 30px auto;
+        }
     }
 
 
