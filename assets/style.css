@@ -15,6 +15,10 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.cloudera-star {
+  width: 0.98046875em;
+}
+
 .cloudera-maintenable-evolutif-site {
   width: 1.1357421875em;
 }
